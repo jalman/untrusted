@@ -34,7 +34,7 @@ function startLevel(map) {
 #START_OF_START_LEVEL#
     map.displayChapter('Chapter 1\nBreakout');
 
-    map.placePlayer(7, 5);
+    map.placePlayer(0, 0);
 #BEGIN_EDITABLE#
 
     for (y = 3; y <= map.getHeight() - 10; y++) {
